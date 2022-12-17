@@ -6,7 +6,7 @@ class SandwichappView(View):
     def get(self, request):
         return render(
             request = request,
-            template_name = 'sandwich.html',
+            template_name = 'sandwich.html'
         )
 
 
